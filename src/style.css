@@ -22,11 +22,17 @@ section.intro{
     padding: 10px 10px 20px 10px;
 }
 
-section.titles h2 img{
+section.titles{
+    overflow: hidden;
+}
+
+section.titles h1 img{
+    width: 400px;
     height: 50px;
 }
 
-section.titles h2 img.food{
+section.titles h1 img.food{
+    width: 400px;
     height: 100px;
 }
 
