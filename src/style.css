@@ -28,6 +28,7 @@ section.titles{
 }
 
 section.titles h1{
+    position:relative;
     text-align: center;
 }
 
