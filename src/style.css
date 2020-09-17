@@ -24,22 +24,20 @@ section.intro{
 
 section.titles{
     overflow: hidden;
-    position: relative;
     margin: 0 auto;
 }
 
 section.titles h1{
     position: relative;
-    text-align: center;
 }
 
 section.titles h1 img{
-    width: 400px;
+    position: fixed;
+    width: 50%;
     height: 50px;
 }
 
 section h1 img.food{
-    width: 400px;
     height: 100px;
 }
 
