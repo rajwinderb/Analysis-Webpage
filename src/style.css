@@ -4,12 +4,12 @@ body{
     line-height: 1.5;
     color: #47354A;
     background-color: #F4F4F4;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
 }
 
 h1, h2, h3 {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
     font-weight: 700;
 }
 
