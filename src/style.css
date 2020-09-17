@@ -24,11 +24,12 @@ section.intro{
 
 section.titles{
     overflow: hidden;
+    position: relative;
     margin: 0 auto;
 }
 
 section.titles h1{
-    position:relative;
+    position: relative;
     text-align: center;
 }
 
