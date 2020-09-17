@@ -32,7 +32,6 @@ section.titles h1{
 }
 
 section.titles h1 img{
-    position: fixed;
     width: 50%;
     height: 50px;
 }
