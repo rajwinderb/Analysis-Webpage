@@ -26,6 +26,16 @@ section.titles{
     overflow: hidden;
 }
 
+section.titles object{
+    width: 400px;
+    height: 50px;
+}
+
+section.food object{
+    width: 400px;
+    height: 100px;
+}
+
 section.titles h1{
     font-size: 64px;
     font-weight: 600;
