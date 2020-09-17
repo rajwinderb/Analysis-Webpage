@@ -18,6 +18,16 @@ header{
     overflow: hidden;
 }
 
+section.titles h2 img{
+    width: 400px;
+    height: 50px;
+}
+
+section.titles h2 img.food{
+    width: 400px;
+    height: 100px;
+}
+
 section.analysis {
     overflow: hidden;
 }
@@ -36,5 +46,5 @@ div img {
 }
 
 div:hover img {
-  transform: scale(1.2) rotate(1deg);
+  transform: scale(1.2);
 }
