@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $("#photos").on("click", function (ev) {
+    $("a.photos").on("click", function (ev) {
+        ev.preventDefault();
         $(this).toggleClass("clicked");
         
         $(".modal").fadeIn(500);
@@ -8,11 +9,10 @@ $(document).ready(function() {
         
         $(".modal-content").html(content);
         
-        ev.preventDefault();
     });
     
     $("div.modal-background, div.modal-close").on("click", function (ev) {
-        $(".modal").fadeOut(500);
         ev.preventDefault();
+        $(".modal").fadeOut(500);
     });
 });

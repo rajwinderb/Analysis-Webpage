@@ -22,10 +22,6 @@ h4{
     font-size: 24px;
 }
 
-a.photos {
-    width: 700px;
-    height: 400px;
-}
 header{
     padding: 10px 15px;
     overflow: hidden;
@@ -62,7 +58,7 @@ section.tgraphs1 img{
     width: 75%;
 }
 
-section.tgraphs1 span{
+section.tgraphs1 a{
     float: left;
     width: 50%;
 }
@@ -73,36 +69,12 @@ section.tgraphs3{
 
 section.tgraphs3 img{
     width: 75%;
+    height: 75%;
 }
 
 section.tgraphs3 div{
     float: left;
     width: 50%;
-}
-
-
-span.pic img {
-    padding: 5px;
-    position: relative;
-    z-index: -1;
-    transition: all 1s;
-}
-
-span.pic:hover img {
-    transform: scale(1.2);
-    opacity: 0.85;
-}
-
-div.pic img {
-    padding: 5px;
-    position: relative;
-    z-index: -1;
-    transition: all 1s;
-}
-
-div.pic:hover img {
-    transform: scale(1.05);
-    opacity: 0.85;
 }
 
 div.modal {
