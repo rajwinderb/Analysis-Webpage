@@ -2,17 +2,25 @@ body{
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
-    color: #000;
+    color: rgb(33, 33, 34);
     background-color: #F4F4F4;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Proza Libre', sans-serif;
     font-weight: 700;
+    color: #000;
 }
 
+h3{
+    font-size: 28px;
+}
+
+h4{
+    font-size: 24px;
+}
 header{
     padding: 10px 15px;
     overflow: hidden;
@@ -22,27 +30,72 @@ section.intro{
     padding: 10px 10px 20px 10px;
 }
 
-section.titles h1{
-    font-size: 64px;
+section.titles{
+    padding: 5px 10px;
 }
 
-section.analysis {
+section.titles h1{
+    font-size: 64px;
+    margin-bottom: 5px;
+}
+
+section.analysis h3.pre{
+    text-align: left;
+    padding-left: 10px;
+}
+
+section.analysis h3.post{
+    text-align: right;
+    padding-right: 20px;
+}
+
+section.tgraphs1{
     overflow: hidden;
 }
 
-section.analysis div{
-    width: 50%;
-    float: left;
-    text-align: center;
-    /* padding: 50px 20px 40px 20px; */
-} 
-
-div img {
-  position: relative;
-  z-index: -1;
-  transition: all 1s;
+section.tgraphs1 img{
+    width: 75%;
 }
 
-div:hover img {
-  transform: scale(1.2);
+section.tgraphs1 span{
+    float: left;
+    width: 50%;
+}
+
+section.tgraphs3{
+    overflow: hidden;
+}
+
+section.tgraphs3 img{
+    width: 75%;
+}
+
+section.tgraphs3 div{
+    float: left;
+    width: 50%;
+}
+
+
+span.pic img {
+    padding: 5px;
+    position: relative;
+    z-index: -1;
+    transition: all 1s;
+}
+
+span.pic:hover img {
+    transform: scale(1.2);
+    opacity: 0.85;
+}
+
+div.pic img {
+    padding: 5px;
+    position: relative;
+    z-index: -1;
+    transition: all 1s;
+}
+
+div.pic:hover img {
+    transform: scale(1.05);
+    opacity: 0.85;
 }
