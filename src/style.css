@@ -63,6 +63,32 @@ section.egraphs1 a{
     width: 50%;
 }
 
+section.egraphs5{
+    overflow: hidden;
+}
+
+section.egraphs5 img{
+    width: 75%;
+}
+
+section.egraphs5 a{
+    float: left;
+    width: 50%;
+}
+
+section.cgraphs2{
+    overflow: hidden;
+}
+
+section.cgraphs2 img{
+    width: 75%;
+}
+
+section.cgraphs2 a{
+    float: left;
+    width: 50%;
+}
+
 section.tgraphs1{
     overflow: hidden;
 }
